@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import Link from "next/link";
+import "./globals.css"
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
@@ -8,7 +9,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <title>Next.js Learning Course</title>
       </head>
       <body>
-        <header style={{ padding: 12, background: "#f5f5f5" }}>My App Navbar</header>
+        <header style={{ padding: 12, background: "skyblue" }}>My App Navbar</header>
         <nav style={{ display: "flex", gap: 12 }}>
           <Link href="/">Home Link</Link>
           {/* <Link href="/">Home</a> */}
