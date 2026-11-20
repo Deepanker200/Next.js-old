@@ -1,6 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  images:{
+    domains:["freakcoder.com"]
+  },
   /* config options here */
   experimental: {
     agentFeedback: true,
