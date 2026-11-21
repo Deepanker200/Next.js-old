@@ -24,6 +24,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           <Link href="/dashboard">Dashboard</Link>
           <Link href="/blog">Blog</Link>
           <Link href="/products">Product</Link>
+          <Link href="/server-component">Server Component</Link>
         </nav>
         {children}
         <footer style={{ padding: 12, background: "#f5f5f5" }}>My Footer</footer>
