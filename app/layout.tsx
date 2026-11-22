@@ -1,7 +1,30 @@
 import type { ReactNode } from "react";
 import Link from "next/link";
+
+//Global CSS
 import "./globals.css"
+
+//Google Font~ Font Optimization
 import { Roboto } from "next/font/google";
+
+
+//MetaData
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: {
+    default: "Next.js Learning Coursess",
+    template: "%s | Next.js Learning Course"
+  },
+  description: "Learning Next.js 16 with App Router",
+  keywords: ["Next.js", "React", "JavaScript", "Web Development"],
+  authors: [{ name: "John Doe", url: "https://example.com" }],
+  openGraph:{
+    siteName: "Next.js Learning Course",
+    title: "Next.js Learning Course",
+    description: "Learning Next.js 16 with App Router",
+  }
+}
 
 const roboto = Roboto({
   subsets: ["latin"],
