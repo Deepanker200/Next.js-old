@@ -6,3 +6,5 @@
     4. Matches nextjs against that segment.
     5. Renders blog/[slug]/page.tsx.
     6. Passes { slug: "nextjs" } through params.
+
+- Note: Axios doesn't provide Next.js Data Cache integration.
